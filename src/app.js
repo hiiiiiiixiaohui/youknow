@@ -23,10 +23,10 @@ export default class App extends React.Component {
 
     fullStyle = [
         `/*
-* Hi。牛子们！
-* 这么久了。还没和各位好哥哥说过我的工作呢！
-* 我叫任一忠，或者叫忠忠猪，也可以叫我忠giegie。喜欢电牛子。职业是做烧鸡相关的。
-* 如这个地方。就是个什么也没有的地方。
+* Hi。亲爱的！
+* 这么久了。还没和你说过我的工作呢！
+* 我叫小晖，也可以叫我小灰灰。喜欢运动，比如跑步🏃，打羽毛球🏸️、乒乓球🏓️等。职业是程序应用开发相关的。
+* 如这个demo一样。是一个基本的网页开发。
 * 我的工作就是给这种空白的地方加点儿东西。
 * 嗯。说起来手机和电脑还得区分一下。
 * 你现在用的是。。。${isPc ? '电脑' : '手机'}
@@ -77,8 +77,8 @@ html{
 }
 
 /*
-* 牛子们，今天教你写代码。
-* 用代码画一个大屁股。
+* 亲爱的，今天教你通过代码画画。
+* 用代码画一个大心心。
 */
 
 /* 首先，来一个画板 */
@@ -98,7 +98,7 @@ html{
   -webkit-transform-origin: 50% 0% 0;`}
 }
 
-/* 画一个方块，当左PP和右PP */
+/* 画一个方块，当左半心❤️和右半心❤️ */
 .heart {
   width: 100px;
   height: 100px;
@@ -110,7 +110,7 @@ html{
   transform: rotate(45deg);
 }
 
-/* 画上左PP */
+/* 画上左心房 */
 .heart::before {
   content: '';
   background: #E88D8D;
@@ -122,7 +122,7 @@ html{
   top: 1px;
 }
 
-/* 再画上右PP */
+/* 再画上右心房 */
 .heart::after {
   content: '';
   background: #E88D8D;
@@ -134,19 +134,7 @@ html{
   top: -38px;
 }
 
-
-/* 再画个内裤 */
-.child {
-    background: black;
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    z-index: 10;
-    opacity: .5;
-}
-
-
-/* 太单调了，让屁股动起来 */
+/* 太单调了，让心心动起来 */
 @keyframes throb {
   0% {
     transform: scale(1) rotate(45deg);
@@ -165,7 +153,7 @@ html{
 }
 /*
 * Ok，完成！
-* 牛子们，屁股节快乐！
+* 亲爱的，节日快乐！
 */
 
 `
