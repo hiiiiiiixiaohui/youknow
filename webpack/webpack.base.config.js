@@ -8,7 +8,7 @@ const isDebug = process.env.NODE_ENV !== 'production';
 const host = '0.0.0.0';
 const port = 8080;
 
-const releasePath = path.resolve(__dirname, '../dist');
+const releasePath = path.resolve(__dirname, '../starLight.github.io');
 
 const base = {
   entry: [path.join(process.cwd(), 'src/main')],
