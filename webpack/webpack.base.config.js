@@ -14,12 +14,12 @@ const base = {
   entry: [path.join(process.cwd(), 'src/main')],
   mode: isDebug ? 'development' : 'production',
   output: {
-    publicPath: './',
+    publicPath: '/',
     path: releasePath,
     chunkFilename: '[name].[chunkhash].chunk.js'
   },
   devServer: {
-    contentBase: [path.join(process.cwd(), './vendor-dev/'), path.join(process.cwd(), './vendor/')],
+    contentBase: [path.join(process.cwd(), 'dist')],
     hot: true,
     compress: false,
     historyApiFallback: true,
@@ -28,7 +28,6 @@ const base = {
     port: port,
     disableHostCheck: true,
     stats: { colors: true },
-    filename: '[name].chunk.js',
     headers: { 'Access-Control-Allow-Origin': '*' }
   },
   resolve: {

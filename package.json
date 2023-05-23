@@ -1,7 +1,7 @@
 {
-  "name": "renyizhong",
+  "name": "happy-day",
   "version": "1.0.0",
-  "description": "忠giegie",
+  "description": "little love",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack/webpack.config.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/youaremywholeworld/youaremywholeworld.github.io.git"
   },
-  "author": "can.yang",
+  "author": "xiao.hui",
   "license": "ISC",
   "homepage": "https://github.com/youaremywholeworld/youaremywholeworld.github.io#readme",
   "dependencies": {
