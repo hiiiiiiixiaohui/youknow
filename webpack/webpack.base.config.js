@@ -8,13 +8,13 @@ const isDebug = process.env.NODE_ENV !== 'production';
 const host = '0.0.0.0';
 const port = 8080;
 
-const releasePath = path.resolve(__dirname, 'docs');
+const releasePath = path.resolve(__dirname, '../docs');
 
 const base = {
   entry: [path.join(process.cwd(), 'src/main')],
   mode: isDebug ? 'development' : 'production',
   output: {
-    publicPath: '',
+    publicPath: '/',
     path: releasePath,
     chunkFilename: '[name].[chunkhash].chunk.js'
   },
