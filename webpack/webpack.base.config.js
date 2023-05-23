@@ -8,13 +8,13 @@ const isDebug = process.env.NODE_ENV !== 'production';
 const host = '0.0.0.0';
 const port = 8080;
 
-const releasePath = path.resolve(__dirname, '../starLight.github.io');
+const releasePath = path.resolve(__dirname, '../youknow');
 
 const base = {
   entry: [path.join(process.cwd(), 'src/main')],
   mode: isDebug ? 'development' : 'production',
   output: {
-    publicPath: '/starLight.github.io/',
+    publicPath: '/',
     path: releasePath,
     chunkFilename: '[name].[chunkhash].chunk.js'
   },
